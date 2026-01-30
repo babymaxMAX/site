@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LsJ Comrades</title>
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:grid;
+      place-items:center;
+      background:#0b0f14;
+      font-family: Arial, sans-serif;
+      color:#e6e6e6;
+    }
+    .wrap{
+      width:min(1100px,92vw);
+      padding:22px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(15,20,28,.55);
+      box-shadow:0 18px 70px rgba(0,0,0,.55);
+      text-align:center;
+    }
+    img{
+      width: min(1000px, 92vw);
+      height:auto;
+      display:block;
+      margin:0 auto 14px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.06);
+    }
+    a{ color:#8ab4ff; word-break:break-all; }
+    .hint{ opacity:.75; font-size:13px; line-height:1.35; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <img src="./logo.png" alt="LsJ Comrades" />
+    <div class="hint">
+      Прямая ссылка на картинку (raw) появится после загрузки файла в репозиторий.<br>
+      Пример: <code>https://raw.githubusercontent.com/USER/REPO/main/logo.png</code>
+    </div>
+  </div>
+</body>
+</html>
